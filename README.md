@@ -16,7 +16,7 @@ npm run dev
 
 `db:init` применяет исходную схему, новые миграции и seed. Повторный запуск сохраняет заявки, файлы, прочитанные уведомления и настройки SLA. Детали обновления старой базы — в `docs/PRODUCT.md`.
 
-Учебные аккаунты: `operator@workflow.local`, `client@workflow.local`, `agent@workflow.local`, `admin@workflow.local`. Пароль **Practice123!**. Сохранена заявка №1043 «не работает перчик», описание «Учебная проверка оборудования».
+Учебные аккаунты: `operator@workflow.local`, `client@workflow.local`, `agent@workflow.local`, `admin@workflow.local`. Пароль **Practice123!**. Сохранена заявка №1043 «не работает перчик», описание «Витя не работает».
 
 ## Что открыть
 
