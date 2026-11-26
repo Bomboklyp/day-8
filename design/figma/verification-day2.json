@@ -1,0 +1,187 @@
+{
+  "day": 2,
+  "testedAt": "2026-11-21T15:52:04.310Z",
+  "base": "http://127.0.0.1:3102",
+  "isolatedDatabase": true,
+  "http": {
+    "total": 25,
+    "endpoints": 5,
+    "statuses": [
+      200,
+      400,
+      404,
+      429,
+      500
+    ]
+  },
+  "screenshots": [
+    {
+      "path": ".verification/day2/screens/home-360.png",
+      "width": 360,
+      "height": 1942
+    },
+    {
+      "path": ".verification/day2/screens/login-360.png",
+      "width": 360,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/dashboard-360.png",
+      "width": 360,
+      "height": 1061
+    },
+    {
+      "path": ".verification/day2/screens/requests-360.png",
+      "width": 360,
+      "height": 2764
+    },
+    {
+      "path": ".verification/day2/screens/detail-360.png",
+      "width": 360,
+      "height": 1431
+    },
+    {
+      "path": ".verification/day2/screens/profile-360.png",
+      "width": 360,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/long-detail-360.png",
+      "width": 360,
+      "height": 1986
+    },
+    {
+      "path": ".verification/day2/screens/missing-fields-360.png",
+      "width": 360,
+      "height": 2862
+    },
+    {
+      "path": ".verification/day2/screens/home-768.png",
+      "width": 768,
+      "height": 1736
+    },
+    {
+      "path": ".verification/day2/screens/login-768.png",
+      "width": 768,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/dashboard-768.png",
+      "width": 768,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/requests-768.png",
+      "width": 768,
+      "height": 1592
+    },
+    {
+      "path": ".verification/day2/screens/detail-768.png",
+      "width": 768,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/profile-768.png",
+      "width": 768,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/long-detail-768.png",
+      "width": 768,
+      "height": 1346
+    },
+    {
+      "path": ".verification/day2/screens/missing-fields-768.png",
+      "width": 768,
+      "height": 1670
+    },
+    {
+      "path": ".verification/day2/screens/home-1280.png",
+      "width": 1280,
+      "height": 1176
+    },
+    {
+      "path": ".verification/day2/screens/login-1280.png",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/dashboard-1280.png",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/requests-1280.png",
+      "width": 1280,
+      "height": 1416
+    },
+    {
+      "path": ".verification/day2/screens/detail-1280.png",
+      "width": 1280,
+      "height": 918
+    },
+    {
+      "path": ".verification/day2/screens/profile-1280.png",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/long-detail-1280.png",
+      "width": 1280,
+      "height": 1218
+    },
+    {
+      "path": ".verification/day2/screens/missing-fields-1280.png",
+      "width": 1280,
+      "height": 1494
+    },
+    {
+      "path": ".verification/day2/screens/empty.png",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/error500.png",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/error429.png",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/detailError.png",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "path": ".verification/day2/screens/search.png",
+      "width": 1280,
+      "height": 950
+    },
+    {
+      "path": ".verification/day2/screens/page2.png",
+      "width": 1280,
+      "height": 1416
+    },
+    {
+      "path": ".verification/day2/screens/oldest.png",
+      "width": 1280,
+      "height": 1416
+    },
+    {
+      "path": ".verification/day2/screens/list-loading.png",
+      "width": 1280,
+      "height": 910
+    },
+    {
+      "path": ".verification/day2/screens/detail-loading.png",
+      "width": 1280,
+      "height": 1022
+    }
+  ],
+  "errors": [],
+  "debounceRequests": 1,
+  "createdId": 1044
+}

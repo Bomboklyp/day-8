@@ -1,0 +1,420 @@
+[
+  {
+    "name": "1.01 · Главная",
+    "route": "/",
+    "expected": {
+      "width": 1280,
+      "height": 1176
+    },
+    "actual": {
+      "width": 1280,
+      "height": 1176
+    },
+    "reference": {
+      "width": 1280,
+      "height": 1176
+    },
+    "differentPixels": 24978,
+    "differencePercent": 1.66,
+    "errors": []
+  },
+  {
+    "name": "1.02 · Вход",
+    "route": "/login",
+    "expected": {
+      "width": 1280,
+      "height": 900
+    },
+    "actual": {
+      "width": 1280,
+      "height": 900
+    },
+    "reference": {
+      "width": 1280,
+      "height": 900
+    },
+    "differentPixels": 820,
+    "differencePercent": 0.07,
+    "errors": []
+  },
+  {
+    "name": "1.04 · Все заявки",
+    "route": "/requests",
+    "expected": {
+      "width": 1280,
+      "height": 1416
+    },
+    "actual": {
+      "width": 1280,
+      "height": 1416
+    },
+    "reference": {
+      "width": 1280,
+      "height": 1416
+    },
+    "differentPixels": 13044,
+    "differencePercent": 0.72,
+    "errors": []
+  },
+  {
+    "name": "1.05 · Карточка заявки — новая",
+    "route": "/requests/1042",
+    "expected": {
+      "width": 1280,
+      "height": 998
+    },
+    "actual": {
+      "width": 1280,
+      "height": 998
+    },
+    "reference": {
+      "width": 1280,
+      "height": 998
+    },
+    "differentPixels": 6846,
+    "differencePercent": 0.54,
+    "errors": []
+  },
+  {
+    "name": "1.06 · Профиль",
+    "route": "/profile",
+    "expected": {
+      "width": 1280,
+      "height": 900
+    },
+    "actual": {
+      "width": 1280,
+      "height": 900
+    },
+    "reference": {
+      "width": 1280,
+      "height": 900
+    },
+    "differentPixels": 2716,
+    "differencePercent": 0.24,
+    "errors": []
+  },
+  {
+    "name": "1.07 · Заявки · Загрузка",
+    "route": "/requests?scenario=loading",
+    "expected": {
+      "width": 1280,
+      "height": 902
+    },
+    "actual": {
+      "width": 1280,
+      "height": 910
+    },
+    "reference": {
+      "width": 1280,
+      "height": 910
+    },
+    "differentPixels": 12832,
+    "differencePercent": 1.1,
+    "errors": []
+  },
+  {
+    "name": "1.08 · Заявки · Пустой список",
+    "route": "/requests?scenario=empty",
+    "expected": {
+      "width": 1280,
+      "height": 900
+    },
+    "actual": {
+      "width": 1280,
+      "height": 900
+    },
+    "reference": {
+      "width": 1280,
+      "height": 900
+    },
+    "differentPixels": 2847,
+    "differencePercent": 0.25,
+    "errors": []
+  },
+  {
+    "name": "1.09 · Заявки · Ошибка загрузки",
+    "route": "/requests?scenario=error",
+    "expected": {
+      "width": 1280,
+      "height": 900
+    },
+    "actual": {
+      "width": 1280,
+      "height": 900
+    },
+    "reference": {
+      "width": 1280,
+      "height": 900
+    },
+    "differentPixels": 3059,
+    "differencePercent": 0.27,
+    "errors": []
+  },
+  {
+    "name": "1.10 · Системная ошибка / 404",
+    "route": "/unknown-page",
+    "expected": {
+      "width": 1280,
+      "height": 900
+    },
+    "actual": {
+      "width": 1280,
+      "height": 900
+    },
+    "reference": {
+      "width": 1280,
+      "height": 900
+    },
+    "differentPixels": 1351,
+    "differencePercent": 0.12,
+    "errors": []
+  },
+  {
+    "name": "1.03 · Dashboard",
+    "route": "/dashboard",
+    "expected": {
+      "width": 1280,
+      "height": 900
+    },
+    "actual": {
+      "width": 1280,
+      "height": 900
+    },
+    "reference": {
+      "width": 1280,
+      "height": 900
+    },
+    "differentPixels": 4218,
+    "differencePercent": 0.37,
+    "errors": []
+  },
+  {
+    "name": "1.01 · Главная · 768",
+    "route": "/",
+    "expected": {
+      "width": 768,
+      "height": 1736
+    },
+    "actual": {
+      "width": 768,
+      "height": 1736
+    },
+    "reference": {
+      "width": 768,
+      "height": 1736
+    },
+    "differentPixels": 6711,
+    "differencePercent": 0.5,
+    "errors": []
+  },
+  {
+    "name": "1.01 · Главная · 360",
+    "route": "/",
+    "expected": {
+      "width": 360,
+      "height": 1942
+    },
+    "actual": {
+      "width": 360,
+      "height": 1942
+    },
+    "reference": {
+      "width": 360,
+      "height": 1942
+    },
+    "differentPixels": 5614,
+    "differencePercent": 0.8,
+    "errors": []
+  },
+  {
+    "name": "1.02 · Вход · 768",
+    "route": "/login",
+    "expected": {
+      "width": 768,
+      "height": 1024
+    },
+    "actual": {
+      "width": 768,
+      "height": 1024
+    },
+    "reference": {
+      "width": 768,
+      "height": 1024
+    },
+    "differentPixels": 860,
+    "differencePercent": 0.11,
+    "errors": []
+  },
+  {
+    "name": "1.02 · Вход · 360",
+    "route": "/login",
+    "expected": {
+      "width": 360,
+      "height": 780
+    },
+    "actual": {
+      "width": 360,
+      "height": 780
+    },
+    "reference": {
+      "width": 360,
+      "height": 780
+    },
+    "differentPixels": 948,
+    "differencePercent": 0.34,
+    "errors": []
+  },
+  {
+    "name": "1.03 · Dashboard · 768",
+    "route": "/dashboard",
+    "expected": {
+      "width": 768,
+      "height": 1024
+    },
+    "actual": {
+      "width": 768,
+      "height": 1024
+    },
+    "reference": {
+      "width": 768,
+      "height": 1024
+    },
+    "differentPixels": 3379,
+    "differencePercent": 0.43,
+    "errors": []
+  },
+  {
+    "name": "1.03 · Dashboard · 360",
+    "route": "/dashboard",
+    "expected": {
+      "width": 360,
+      "height": 1061
+    },
+    "actual": {
+      "width": 360,
+      "height": 1061
+    },
+    "reference": {
+      "width": 360,
+      "height": 1061
+    },
+    "differentPixels": 3611,
+    "differencePercent": 0.95,
+    "errors": []
+  },
+  {
+    "name": "1.04 · Все заявки · 768",
+    "route": "/requests",
+    "expected": {
+      "width": 768,
+      "height": 1592
+    },
+    "actual": {
+      "width": 768,
+      "height": 1592
+    },
+    "reference": {
+      "width": 768,
+      "height": 1592
+    },
+    "differentPixels": 10722,
+    "differencePercent": 0.88,
+    "errors": []
+  },
+  {
+    "name": "1.04 · Все заявки · 360",
+    "route": "/requests",
+    "expected": {
+      "width": 360,
+      "height": 2712
+    },
+    "actual": {
+      "width": 360,
+      "height": 2712
+    },
+    "reference": {
+      "width": 360,
+      "height": 2712
+    },
+    "differentPixels": 12596,
+    "differencePercent": 1.29,
+    "errors": []
+  },
+  {
+    "name": "1.05 · Карточка заявки — новая · 768",
+    "route": "/requests/1042",
+    "expected": {
+      "width": 768,
+      "height": 1034
+    },
+    "actual": {
+      "width": 768,
+      "height": 1034
+    },
+    "reference": {
+      "width": 768,
+      "height": 1034
+    },
+    "differentPixels": 6621,
+    "differencePercent": 0.83,
+    "errors": []
+  },
+  {
+    "name": "1.05 · Карточка заявки — новая · 360",
+    "route": "/requests/1042",
+    "expected": {
+      "width": 360,
+      "height": 1622
+    },
+    "actual": {
+      "width": 360,
+      "height": 1622
+    },
+    "reference": {
+      "width": 360,
+      "height": 1622
+    },
+    "differentPixels": 6779,
+    "differencePercent": 1.16,
+    "errors": []
+  },
+  {
+    "name": "1.06 · Профиль · 768",
+    "route": "/profile",
+    "expected": {
+      "width": 768,
+      "height": 1024
+    },
+    "actual": {
+      "width": 768,
+      "height": 1024
+    },
+    "reference": {
+      "width": 768,
+      "height": 1024
+    },
+    "differentPixels": 2529,
+    "differencePercent": 0.32,
+    "errors": []
+  },
+  {
+    "name": "1.06 · Профиль · 360",
+    "route": "/profile",
+    "expected": {
+      "width": 360,
+      "height": 855
+    },
+    "actual": {
+      "width": 360,
+      "height": 855
+    },
+    "reference": {
+      "width": 360,
+      "height": 855
+    },
+    "differentPixels": 2129,
+    "differencePercent": 0.69,
+    "errors": []
+  }
+]

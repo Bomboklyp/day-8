@@ -1,0 +1,70 @@
+{
+  "day": 8,
+  "status": "passed",
+  "testedAt": "2026-11-24T13:52:16.375Z",
+  "http": {
+    "createdId": 1044,
+    "statuses": [
+      200,
+      201,
+      400,
+      401,
+      403,
+      404,
+      409,
+      422
+    ],
+    "roles": 4
+  },
+  "product": {
+    "migrationUpgrade": true,
+    "sla": true,
+    "escalation": true,
+    "attachments": true,
+    "concurrentFileLimit": true,
+    "notifications": true,
+    "analytics": true
+  },
+  "browser": {
+    "startTime": "2026-11-24T13:51:41.270Z",
+    "duration": 35084.106,
+    "expected": 21,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "persistedAfterRestart": true,
+  "unitIntegration": {
+    "passed": 35,
+    "failed": 0,
+    "files": 9,
+    "runner": "Vitest"
+  },
+  "checks": {
+    "typecheck": "passed",
+    "lint": "passed, zero warnings",
+    "build": "passed",
+    "architecture": "passed"
+  },
+  "architecture": {
+    "files": 185,
+    "dependencies": 442,
+    "cycles": 0,
+    "violations": 0
+  },
+  "publicVisualParity": {
+    "screens": 18,
+    "differentPixels": 0
+  },
+  "preview": {
+    "status": "passed",
+    "url": "http://127.0.0.1:3007",
+    "mobileAttachmentModal": true,
+    "keyboardFocus": true,
+    "errors": []
+  },
+  "figma": {
+    "section": "1:34021",
+    "frames": 20
+  }
+}

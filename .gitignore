@@ -1,0 +1,10 @@
+node_modules/
+.nuxt/
+.output/
+.data/
+.tools/
+.verification/
+*.log
+.env
+.DS_Store
+WorkFlow-source.zip
